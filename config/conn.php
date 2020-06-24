@@ -5,7 +5,6 @@ $host = 'localhost';
 $usuario = 'root';
 $senha = 'usbw';
 $banco = 'aula';
-$dsn = "mysql:host={$host};port=3307;dbname={$banco};charset=utf8";
 
 $conn = mysqli_connect($host, $usuario, $senha, $banco);
  
