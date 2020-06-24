@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS `programadores` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
-INSERT INTO `nome` (`id`, `nome`, `sobrenome`) VALUES
+INSERT INTO `programadores` (`id`, `nome`, `sobrenome`) VALUES
 (1, ' Alan Mathison', 'Turing'),
 (2, 'Linus', 'Torvalds'),
 (3, 'Ken', 'Thompson'),
